@@ -1,0 +1,280 @@
+/* :root{
+    --bgColor:#000000;
+    --textColor:#00FF00;
+    --radius:8px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 6px;
+    width: 159px;
+    height: 232px;
+    position: absolute;
+    margin: 250px;
+    background-color: var(--bgColor)!important;
+}
+
+.recatngel{
+position: absolute;
+width: 159px;
+height: 205px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+border-radius: 10px;
+
+}
+
+.image{
+position: absolute;
+width: 159px;
+height: 170px;
+left: 0px;
+top: 0px;
+border-radius: 10px 10px 0px 0px;
+}
+
+.chip{
+position:relative;
+width: 55px;
+height: 15px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+
+}
+
+
+
+
+
+
+
+
+/* Frame 3740 */
+
+/* Auto layout */
+
+
+/* Inside auto layout */
+/* flex: none;
+order: 1;
+flex-grow: 0; */
+
+
+/* Group 7480 */
+/* 
+width: 159px;
+height: 205px; */
+
+
+/* Inside auto layout */
+/* flex: none;
+order: 0;
+flex-grow: 0; */
+
+
+/* Rectangle 2150 */
+
+/* position: absolute;
+width: 159px;
+height: 205px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+border-radius: 10px; */
+
+
+/* Rectangle 2139 */
+
+/* position: absolute;
+width: 159px;
+height: 170px;
+left: 0px;
+top: 0px;
+
+background: url(image.png);
+border-radius: 10px 10px 0px 0px; */
+
+
+/* Frame 7480 */
+
+/* Auto layout */
+/* display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px 8px;
+gap: 1px;
+
+position: absolute;
+width: 71px;
+height: 23px;
+left: 8px;
+top: 176px;
+
+background: #121212;
+border-radius: 10px; */
+
+
+/* 100 Follows */
+
+/* width: 55px;
+height: 15px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+
+/* color: #FFFFFF; */ 
+
+
+/* Inside auto layout */
+/* flex: none;
+order: 0;
+flex-grow: 0; */
+
+
+/* New English Songs */
+
+/* width: 130px;
+height: 21px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px; */
+/* identical to box height */
+
+/* color: #FFFFFF; */ 
+
+
+/* Inside auto layout */
+/* flex: none;
+order: 1;
+flex-grow: 0; 
+
+
+
+/* Frame 7480 */
+
+/* Auto layout */
+/* display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px 8px;
+gap: 1px;
+
+position: absolute;
+width: 71px;
+height: 23px;
+left: 8px;
+top: 176px;
+
+background: #121212;
+border-radius: 10px; */
+
+
+
+
+
+
+
+/* Outer container for centering */
+
+
+/* Black Card */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 6px;
+    width: 159px;
+    height: 232px;
+    background-color: black!important;
+}
+
+/* Image inside the card */
+.image {
+width: 159px;
+height: 170px;
+left: 0px;
+top: 0px;
+border-radius: 10px 10px 0px 0px;
+
+}
+
+/* White bottom section inside the card */
+.bottomContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 159px;
+    height: 205px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF!important;
+    border-radius: 10px;
+
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/* Chip inside the bottom section */
+.chip {
+background: #121212!important;
+border-radius: 10px;
+margin-top: 4px;
+margin-left: 4px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+ font-size: 10px;
+line-height: 15px; 
+
+
+color: #FFFFFF!important;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/* Text outside the card */
+.textOutside {
+color: rgb(234, 225, 225)!important;
+/* New English Songs */
+font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+
+
+}
+
+
+

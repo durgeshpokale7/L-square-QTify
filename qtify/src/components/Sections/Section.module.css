@@ -1,0 +1,29 @@
+.containerDiv {
+     /* Ensures full width */
+    padding: 10px 20px;
+}
+
+/* Flexbox for alignment */
+.header {
+    display: flex;
+    justify-content: space-between; /* Aligns items at both ends */
+    align-items: center; /* Aligns items vertically */
+    width: 100%;
+}
+
+/* Removes default margin */
+.title {
+  
+    color: white;
+}
+
+/* Lowercase button text */
+.buttonShow {
+    color:green!important;
+    text-transform: none !important; /* Overrides default uppercase */
+}
+
+.grid{
+    display: flex;
+    align-items: center;
+}
