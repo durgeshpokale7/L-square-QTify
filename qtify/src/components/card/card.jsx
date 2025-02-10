@@ -4,7 +4,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Chip from '@mui/material/Chip';
 import Box from '@mui/material/Box';
-import cardImage from "../../assests/image.png";
+// import cardImage from "../../assests/image.png";
 import styles from "./Card.module.css"; // Import CSS file
 
 function CustomCard({follows,id,image,title}) {

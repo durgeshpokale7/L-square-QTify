@@ -1,14 +1,15 @@
 import { Button } from "@mui/material";
 import styles from "./Section.module.css";
 import { useEffect, useState } from "react";
-import axios from "axios";
+// import axios from "axios";
 import Grid from '@mui/material/Grid';
 import CustomCard from "../card/card";
 import fetchAlbum from "../../api/api"
 
-function Section( title ) {
+function Section( title) {
 
     const[data,setData]=useState([]);
+    
 
     useEffect(()=>{
         const fetchData = async () => {
@@ -21,7 +22,7 @@ function Section( title ) {
           };
       
           fetchData();
-    },[])
+    },[title])
     
     
 

@@ -3,7 +3,7 @@ import './App.css';
 // import { Button, Card } from '@mui/material';
 import Navbar from "./components/navbar/navbar";
 // import Hero from "./components/Hero/Hero"
-import CustomCard from "./components/card/card"
+// import CustomCard from "./components/card/card"
 import Section from './components/Sections/Section';
 
 function App() {
