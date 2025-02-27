@@ -1,0 +1,17 @@
+:root{
+    --bgColor:#000000;
+    --textColor:#00FF00;
+    --radius:8px;
+}
+
+.button{
+background-color: var(--bgColor)!important;
+color:var(--textColor)!important;
+border-radius:var(--radius)!important;
+font-family: 'Poppins',sans-serif;
+}
+.hover{
+    cursor: pointer;
+}
+
+
